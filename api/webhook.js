@@ -21,6 +21,7 @@ async function subscribeToWABA() {
     const result = await response.json();
     console.log('WABA Subscription:', result);
     isSubscribed = true;
+    console.log('test 2 arjun WABA Subscription:', result);
     return result;
   } catch (error) {
     console.error('WABA subscription error:', error);
